@@ -1,0 +1,111 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 120%;
+    background: #f8f8ff;
+}
+.header{
+    background:url("car1.jpg");
+    min-height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*.header{
+    width: 30%;
+    font-family: cursive;
+    margin: 50px auto 0px;
+    color: black;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}*/
+.content{
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group{
+    /*position: absolute;
+    right: 150px;
+    margin: 20px;
+    max-width: 300px;
+    margin: 10px 0px 10px 0px;*/
+    position: absolute;
+    right: 350px;
+    margin: 30px;
+    max-width: 400px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+h2{
+    font-family: cursive;
+    text-align: center;
+}
+.input-group label{
+    color: black;
+    display: block;
+    text-align: left;
+    margin: 3px;
+    font-family: cursive;
+    max-width: 300px;
+}
+.input-group input{
+    font-family: cursive;
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn{
+   /* padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;*/
+    background: #4caf50;
+    color: #fff;
+    padding: 13px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    width:100%;
+    border: none;
+}
+p{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+}
+p:hover{
+    text-decoration: underline;
+}
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success{
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
